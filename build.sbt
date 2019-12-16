@@ -1,6 +1,6 @@
 name := "spark-excel"
 
-organization := "com.crealytics"
+organization := "com.github.enverosmanov"
 
 crossScalaVersions := Seq("2.12.10", "2.11.12")
 
@@ -84,8 +84,8 @@ pomExtra :=
       </license>
     </licenses>
     <scm>
-      <url>git@github.com:crealytics/spark-excel.git</url>
-      <connection>scm:git:git@github.com:crealytics/spark-excel.git</connection>
+      <url>git@github.com:enverosmanov/spark-excel.git</url>
+      <connection>scm:git:git@github.com:enverosmanov/spark-excel.git</connection>
     </scm>
     <developers>
       <developer>
@@ -117,5 +117,5 @@ fork := true
 
 // -- MiMa binary compatibility checks ------------------------------------------------------------
 
-mimaPreviousArtifacts := Set("com.crealytics" %% "spark-excel" % "0.0.1")
+mimaPreviousArtifacts := Set("com.github.enverosmanov" %% "spark-excel" % "0.0.1")
 // ------------------------------------------------------------------------------------------------
